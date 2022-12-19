@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0 12px 0.4px rgba(0,0,0,0.2);
+    padding-left: 4rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 4rem;
+}
+
+.logo {
+    width: 105px;
+    margin-top: 1.2rem;
+}
+
+.hero-title {
+    margin-top: 3rem;
+    font-size: 60px;
+}
+
+.hero-description {
+    font-size: 23px;
+    margin-top: -35px;
+}
+
+.star {
+    width: 20px;
+}
+
+.card {
+    width: 200px;
+    font-size: 13px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--image {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 9px;
+    height: 270px;
+    margin-top: -75px;
+}
+
+
+.gray {
+    color: #918e9b;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--price {
+    margin-top: 0;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
